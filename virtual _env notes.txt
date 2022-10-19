@@ -1,0 +1,28 @@
+To create a virtual environment in Python3 and activate it immediately use this command in your terminal:
+
+mkvirtualenv name_of_your_env
+
+To deactivate the environment use the deactivate command.
+
+To list all available virtual environments use the command workon or lsvirtualenv (lsvirtualenv will show the same result as workon but in a fancier way) in your terminal:
+
+workon
+
+lsvirtualenv
+
+To activate one specific environment use workon + name of your environment:
+
+workon name_of_your_env
+
+There are several useful command you might need to use someday:
+
+Rmvirtualenv will remove a specific virtual environment located in your .virtualenv directory.
+
+rmvirtualenv name_of_your_env
+
+Cpvirtualenv will copy the existing virtual environment to a new virtual environment and activate it.
+
+cpvirtualenv old_virtual_env new_virtual_env
+
+
+https://www.freecodecamp.org/news/how-to-set-up-python-virtual-environment-on-ubuntu-20-04/

@@ -2,7 +2,7 @@
 {% block content %}
 <br>
     {% for post in posts %}
-    <article class="card border-primary ">
+    <article class="card border-dark ">
       <div class="card-body">
         <div class="article-metadata">
             <small>
@@ -20,7 +20,8 @@
     {% endfor %}
 {% if is_paginated %}
 <div>
-    <ul class="pagination ">
+    <nav aria-label="Page navigation example">
+    <ul class="pagination">
       <li class="page-item">
       {% if page_obj.has_previous %}
         <a class="page-link" href="?page=1">&laquo;</a>
@@ -53,5 +54,6 @@
 
     {% endif %}
     </ul>
+    </nav>
 </div>
 {% endblock content%}

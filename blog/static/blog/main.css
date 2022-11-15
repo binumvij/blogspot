@@ -91,3 +91,7 @@ a.article-title:hover {
     color: #000000;
     text-decoration: none;
   }
+  .center {
+  margin: auto;
+  width: 50px;
+}
